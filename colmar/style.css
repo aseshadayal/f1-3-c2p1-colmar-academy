@@ -1,0 +1,526 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul,footer, header, nav,{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Merriweather Sans', sans-serif;
+    vertical-align: baseline;
+  }
+
+html{
+    font-size: 18px;
+}
+
+title {
+    display: none;
+}
+
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1rem;
+  background-color: white;
+  line-height: 1;
+  display: block;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: darkgrey;
+}
+
+h2{
+  font-size: 1.25rem;
+  color: #darkgrey;
+  font-weight: 500;
+  line-height: 1.45rem;
+}
+
+p{
+  font-weight: 400;
+  color: grey;
+  font-size: .8rem;
+  line-height: 1.1rem;
+}
+
+h3 {
+  font-size: 1.10rem;
+  color: darkgrey;
+  font-weight: 500;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+  }
+
+/* Navigation */
+
+header {
+    background-color: white;
+  }
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 2.75rem;
+  padding-left: 24px;
+}
+
+.colmar{
+  font-size: 1rem;
+  font-weight: 700;
+  color: darkgrey;
+  line-height: .95rem;
+}
+
+.academy{
+  font-size: 1rem;
+  font-weight: 400;
+  color: lightgrey;
+  line-height: .95rem;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.desktop a{
+  display: inline-block;
+  padding-right: 16px;
+  color: darkgrey;
+  font-size: 1rem;
+  cursor: auto;
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Main Banner */
+
+.main-banner {
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+div{
+  display: block;
+}
+
+.container {
+  max-width: 1050px;
+  margin: auto;
+}
+
+.main-banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-left {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.banner-left img {
+  width: 100%;
+}
+
+.banner-textcontainer{
+  width: 440px;
+}
+
+.banner-text{
+  height: auto;
+  padding-left: 20px;
+  margin-right: 60px;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.banner-text h2{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.button{
+  background-color: darkgrey;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Main Feature */
+
+.features{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-feature{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.left-feature img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.left-feature h1{
+  padding-top: 32px;
+}
+
+.left-feature p{
+  padding: 24px 24px 24px 0px;
+}
+
+.byline{
+  color: black;
+  font-size: .75rem;
+  line-height: .95rem;
+}
+
+.right-feature{
+  border-left: 1px solid #DCDCDC;
+  padding: 16px 0px 32px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  }
+
+.first{
+
+}
+
+.second{
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.small-feature{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop .small-feature img {
+  width: 35%;
+  padding: 16px;
+}
+
+.mobile .small-feature img {
+  display: none;
+}
+
+.text{
+  padding: 16px 1px 16px 0px;
+  width: 100%;
+}
+
+.text p{
+  padding-top: 8px;
+}
+
+.text a{
+  color: #4ba3f4;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding-top: .9rem;
+}
+
+
+/* Start Learning */
+
+.start-learning{
+  background-color: #F5F5F5;
+  padding-bottom: 32px;
+}
+
+.heading{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.course-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.course{
+  background-color: white;
+  width: 32%;
+  height: 16rem;
+  margin-bottom: 20px;
+}
+
+.course-content{
+  padding: 16px 16px 24px 16px;
+}
+
+.course h3{
+  padding-bottom: 1rem;
+}
+
+.course-img img{
+  width: 100%;
+}
+
+.course-content span{
+  font-size: .8rem;
+  color: gray;
+}
+
+.course p {
+    padding-top: .55rem;
+}
+
+.courses-list {
+    display: none;
+}
+
+.mobile a{
+  display: none;
+}
+
+/* Thesis */
+
+.video-container{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.thesis h3{
+  padding-top: 24px;
+}
+
+.thesis p {
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+
+.video-container video {
+  width: 100%;
+  object-fit: contain;
+}
+
+.video-container p{
+  padding: 24px 24px 24px 0px;
+}
+
+.thesis .first{
+  margin-top: 32px;
+}
+
+.guest {
+  background-color: #DCDCDC;
+}
+
+.thesis .small-feature img{
+  width: 35%;
+  padding: 16px;
+}
+@media only screen and (max-width: 480px){
+.small-feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px){
+.flex .video-container {
+    width: 100%;
+    padding: 0px;
+}
+/* Footer */
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .75rem;
+}
+
+footer p {
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #383838;
+}
+
+nav .footer-nav a {
+  display: inline-block;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #383838;
+  font-size: .75rem;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 480px){
+.small-feature img .mobile {
+  display: flex;
+  width: 100%;
+  }
+.content {
+  padding: 0px;
+  width: 100%;
+  margin-top: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+.courses-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+.logo {
+    display: none;
+  }
+nav.desktop {
+    display: none;
+  }
+nav .mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 24px;
+  padding-left: 24px;
+  }
+
+.banner-text a {
+    width: 100%;
+    background-color: #808080;
+  }
+.container {
+    width: 100%;
+  }
+.feature .left-feature {
+    display: none;
+  }
+.feature .right-feature {
+    border-left: 0px;
+    padding: 16px 16px 32px 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+.small-feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+.second-info {
+    border-top: 0px;
+    border-bottom: 0px;
+    margin: 16px 0px;
+  }
+.learning {
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    background-color: white;
+  }
+.heading a {
+      width: 100%;
+      background-color: #808080;
+  }
+}
+
+
+@media only screen and (max-width: 800px){
+.main-banner .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+.main-banner .left-feature {
+    width: 100%;
+    padding: 0px 0px;
+  }
+.right-feature {
+    width: 100%;
+  }
+
+.banner-text {
+  margin: 32px 24px;
+  padding-left: 0px;
+  align-items: center;
+  }
+.heading {
+  margin: 32px 24px;
+  padding-left: 0px;
+  align-items: center;
+  }
+.heading a {
+    width: 50%;
+}
+}
+
+@media only screen and (max-width: 480px){
+footer {
+    border-top: 0px;
+  }
+footer .container {
+    margin-top: 24px;
+  }
+footer p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+footer .footer-nav {
+    display: none;
+  }
+}
